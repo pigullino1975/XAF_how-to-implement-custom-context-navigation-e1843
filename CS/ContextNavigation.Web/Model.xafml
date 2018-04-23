@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<Application>
+<Views>
+  <DetailView ID="HelpDocument_DetailView">
+    <Items>
+      <PropertyEditor PropertyName="Text" PropertyEditorType="DevExpress.ExpressApp.HtmlPropertyEditor.Web.ASPxHtmlPropertyEditor" />
+    </Items>
+  </DetailView>
+  <DetailView ID="HelpDocument_DetailView_FewColumns">
+    <Items>
+      <PropertyEditor PropertyName="Text" PropertyEditorType="DevExpress.ExpressApp.HtmlPropertyEditor.Web.ASPxHtmlPropertyEditor" />
+    </Items>
+  </DetailView>
+  <ListView ID="HelpDocument_ListView_FewColumns" AllowNew="False" AllowDelete="False" />
+</Views>
+</Application>
