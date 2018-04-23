@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems NavigationStyle="NavBar" />
+  <Views>
+    <DetailView Id="HelpDocument_DetailView">
+      <Items>
+        <PropertyEditor Id="Text" PropertyName="Text" PropertyEditorType="DevExpress.ExpressApp.HtmlPropertyEditor.Web.ASPxHtmlPropertyEditor" />
+      </Items>
+    </DetailView>
+    <DetailView Id="HelpDocument_DetailView_FewColumns">
+      <Items>
+        <PropertyEditor Id="Text" PropertyName="Text" PropertyEditorType="DevExpress.ExpressApp.HtmlPropertyEditor.Web.ASPxHtmlPropertyEditor" />
+      </Items>
+    </DetailView>
+    <ListView Id="HelpDocument_ListView_FewColumns" AllowNew="False" AllowDelete="False" />
+  </Views>
+</Application>
