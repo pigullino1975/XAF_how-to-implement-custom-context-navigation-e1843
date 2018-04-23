@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" ?>
+<Application Title="ContextNavigation" Logo="ExpressAppLogo">
+  <NavigationItems NavigationStyle="TreeList" />
+  <Views>
+    <DetailView ID="HelpDocument_DetailView_FewColumns" ClassName="ContextNavigation.Module.HelpDocument" AllowEdit="False" AllowDelete="False" AllowNew="False" IsNewNode="True">
+      <Items IsNewNode="True">
+        <PropertyEditor PropertyName="ObjectType" Index="-1" IsNewNode="True" />
+        <PropertyEditor PropertyName="Text" IsNewNode="True" />
+        <PropertyEditor PropertyName="Title" IsNewNode="True" />
+      </Items>
+      <Layout Width="540" Height="919" IsNewNode="True">
+        <LayoutGroup ID="Main" Index="0" Direction="Vertical" ShowCaption="False" Caption="Main" CaptionLocation="Default" RelativeSize="99" IsNewNode="True">
+          <LayoutGroup ID="SimpleEditors" Index="0" Direction="Vertical" ShowCaption="False" Caption="Simple Editors" CaptionLocation="Default" RelativeSize="3" IsNewNode="True">
+            <LayoutGroup ID="HelpDocument" Index="0" Direction="Vertical" ShowCaption="False" Caption="Help Document" CaptionLocation="Default" RelativeSize="100" IsNewNode="True">
+              <LayoutItem ID="Title" ShowCaption="True" Index="0" CaptionLocation="Default" RelativeSize="100" SizeConstraintsType="Default" IsNewNode="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup ID="SizeableEditors" Index="1" Direction="Vertical" ShowCaption="False" Caption="Sizeable Editors" CaptionLocation="Default" RelativeSize="96" IsNewNode="True">
+            <LayoutItem ID="Text" ShowCaption="True" Index="0" CaptionLocation="Default" RelativeSize="100" SizeConstraintsType="Default" IsNewNode="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
