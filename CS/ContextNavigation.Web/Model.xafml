@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views>
+    <DetailView Id="HelpDocument_DetailView">
+      <Items>
+        <PropertyEditor Id="Text" PropertyName="Text" PropertyEditorType="DevExpress.ExpressApp.HtmlPropertyEditor.Web.ASPxHtmlPropertyEditor" />
+      </Items>
+    </DetailView>
+    <DetailView Id="HelpDocument_DetailView_FewColumns">
+      <Items>
+        <PropertyEditor Id="Text" PropertyName="Text" PropertyEditorType="DevExpress.ExpressApp.HtmlPropertyEditor.Web.ASPxHtmlPropertyEditor" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>
