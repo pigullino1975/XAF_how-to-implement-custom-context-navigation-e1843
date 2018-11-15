@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HelpDocument.cs](./CS/ContextNavigation.Module/BusinessObjects/HelpDocument.cs) (VB: [HelpDocument.vb](./VB/ContextNavigation.Module/BusinessObjects/HelpDocument.vb))
+* **[TaskBasedHelpController.cs](./CS/ContextNavigation.Module/Controllers/TaskBasedHelpController.cs) (VB: [TaskBasedHelpController.vb](./VB/ContextNavigation.Module/Controllers/TaskBasedHelpController.vb))**
+<!-- default file list end -->
 # How to: Implement Custom Context Navigation
 
 
