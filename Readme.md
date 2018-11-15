@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [BusinessClasses.cs](./CS/ContextNavigation.Module/BusinessClasses.cs) (VB: [BusinessClasses.vb](./VB/ContextNavigation.Module/BusinessClasses.vb))
+* [TaskBasedHelpController.cs](./CS/ContextNavigation.Module/TaskBasedHelpController.cs) (VB: [TaskBasedHelpController.vb](./VB/ContextNavigation.Module/TaskBasedHelpController.vb))
+* [Updater.cs](./CS/ContextNavigation.Module/Updater.cs) (VB: [Updater.vb](./VB/ContextNavigation.Module/Updater.vb))
+<!-- default file list end -->
 # How to: Implement Custom Context Navigation
 
 
