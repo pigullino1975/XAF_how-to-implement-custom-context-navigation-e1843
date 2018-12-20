@@ -31,7 +31,7 @@
             Me.module7 = New DevExpress.ExpressApp.Validation.Win.ValidationWindowsFormsModule()
             Me.securityModule1 = New DevExpress.ExpressApp.Security.SecurityModule()
             Me.htmlPropertyEditorWindowsFormsModule1 = New DevExpress.ExpressApp.HtmlPropertyEditor.Win.HtmlPropertyEditorWindowsFormsModule()
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
             ' 
             ' module5
             ' 
@@ -48,7 +48,7 @@
             Me.Modules.Add(Me.module5)
             Me.Modules.Add(Me.module7)
             Me.Modules.Add(Me.htmlPropertyEditorWindowsFormsModule1)
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
         End Sub
 

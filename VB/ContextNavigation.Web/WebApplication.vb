@@ -8,9 +8,8 @@ Imports System.Collections.Generic
 
 Namespace ContextNavigation.Web
     ' You can override various virtual methods and handle corresponding events to manage various aspects of your XAF application UI and behavior.
-    Partial Public Class ContextNavigationAspNetApplication ' http://documentation.devexpress.com/#Xaf/DevExpressExpressAppWebWebApplicationMembersTopicAll
-        Inherits WebApplication
-
+    Partial Public Class ContextNavigationAspNetApplication
+        Inherits WebApplication ' http://documentation.devexpress.com/#Xaf/DevExpressExpressAppWebWebApplicationMembersTopicAll
         Private module1 As DevExpress.ExpressApp.SystemModule.SystemModule
         Private module2 As DevExpress.ExpressApp.Web.SystemModule.SystemAspNetModule
         Private module3 As ContextNavigation.Module.ContextNavigationModule
@@ -34,7 +33,7 @@ Namespace ContextNavigation.Web
             args.ObjectSpaceProvider = New XPObjectSpaceProvider(args.ConnectionString, args.Connection)
         End Sub
 
-        Private Sub ContextNavigationAspNetApplication_DatabaseVersionMismatch(ByVal sender As Object, ByVal e As DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs) Handles MyBase.DatabaseVersionMismatch
+        Private Sub ContextNavigationAspNetApplication_DatabaseVersionMismatch(ByVal sender As Object, ByVal e As DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs) Handles Me.DatabaseVersionMismatch
                 e.Updater.Update()
                 e.Handled = True
         End Sub
