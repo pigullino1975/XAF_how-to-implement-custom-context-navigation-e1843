@@ -26,7 +26,7 @@ Namespace ContextNavigation.Module
                 Dim objectTypeInfo As ITypeInfo = XafTypesInfo.Instance.FindTypeInfo(viewNode.ModelClass.Name)
                 If objectTypeInfo IsNot Nothing Then
                     Dim docCriteria As CriteriaOperator = CriteriaOperator.Parse("ObjectType == ?", objectTypeInfo.Type)
-                    Dim myObjectSpace As IObjectSpace = Application.CreateObjectSpace()
+                    Dim myObjectSpace As IObjectSpace = Application.CreateObjectSpace(GetType(HelpDocument))
                     Dim docs As IList(Of HelpDocument) = myObjectSpace.GetObjects(Of HelpDocument)(docCriteria)
                     If docs.Count > 0 Then
                         Dim docsGroup As New ChoiceActionItem("CustomDocuments", "Task-Based Help", Nothing) With {.ImageName = "BO_Report"}

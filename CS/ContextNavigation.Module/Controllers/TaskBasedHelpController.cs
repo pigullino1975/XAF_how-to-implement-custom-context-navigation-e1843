@@ -23,7 +23,7 @@ namespace ContextNavigation.Module {
                 ITypeInfo objectTypeInfo = XafTypesInfo.Instance.FindTypeInfo(viewNode.ModelClass.Name);
                 if (objectTypeInfo != null) {
                     CriteriaOperator docCriteria = CriteriaOperator.Parse("ObjectType == ?", objectTypeInfo.Type);
-                    IObjectSpace myObjectSpace = Application.CreateObjectSpace();
+                    IObjectSpace myObjectSpace = Application.CreateObjectSpace(typeof(HelpDocument));
                     IList<HelpDocument> docs = myObjectSpace.GetObjects<HelpDocument>(docCriteria);
                     if (docs.Count > 0) {
                         ChoiceActionItem docsGroup = new ChoiceActionItem("CustomDocuments", "Task-Based Help", null) { ImageName = "BO_Report" };
