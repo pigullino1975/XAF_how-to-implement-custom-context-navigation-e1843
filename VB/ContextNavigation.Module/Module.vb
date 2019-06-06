@@ -6,11 +6,11 @@ Imports System.Reflection
 
 
 Namespace ContextNavigation.Module
-	Public NotInheritable Partial Class ContextNavigationModule
-		Inherits ModuleBase
+    Public NotInheritable Partial Class ContextNavigationModule
+        Inherits ModuleBase
 
-		Public Sub New()
-			InitializeComponent()
-		End Sub
-	End Class
+        Public Sub New()
+            InitializeComponent()
+        End Sub
+    End Class
 End Namespace
