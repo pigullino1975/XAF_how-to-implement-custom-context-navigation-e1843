@@ -1,1 +1,1 @@
-﻿<%@ Application Language="vb" CodeBehind="Global.asax.vb" Inherits="ContextNavigation.Web.Global"%>
+<%@ Application Language="C#" CodeBehind="Global.asax.cs" Inherits="ContextNavigation.Web.Global"%>
